@@ -1,7 +1,3 @@
-
-
-
-
 const handleClick = (ramen) => {
   const ramenDetail = document.getElementById('ramen-detail');
   
@@ -77,9 +73,3 @@ const main = () => {
 main()
 
 
-export {
-  displayRamens,
-  addSubmitListener,
-  handleClick,
-  main,
-};
